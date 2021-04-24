@@ -55,7 +55,7 @@ for i in ipairs(armchairs_list) do
 				return
 			end
 			pos.y = pos.y-0.5
-			clicker:setpos(pos)
+			clicker:set_pos(pos)
 			clicker:set_hp(20)
 		end
 	})
