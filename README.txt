@@ -1,7 +1,7 @@
 Living Room Furniture (lrfurn) mod for Minetest
 
 
-by thefamilygrog66
+by thefamilygrog66 and 1F616EMO
 
 Description:
 Coloured Long Sofas (3 blocks wide), Sofas (2 blocks wide), Armchairs, Coffee Tables and End Tables, loosely based on PilzAdam's beds mod. There are 9 colours in all: red, orange, yellow, green, blue, violet, black, grey and white.
@@ -63,23 +63,14 @@ Recipes:
 
 Mod dependencies: default, wool
 
+New in this fork:
+
+Allowing sitting onto every slots of (long)sofas
+Removed deprecated calls
+Translation of German (text by Xanthin) and Traditional Chinese using the built-in engine
+
 License:
-Sourcecode: WTFPL (see below)
-Graphics: WTFPL (see below)
 
-See also:
-http://minetest.net/
+The origial license is WTFPL. However, because it is not an OSI-approved FOSS license, it is changed to CC0 in this fork.
 
-         DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
-
- Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
-
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
+Living Room Furniture by thefamilygrog66 and 1F616EMO is marked with CC0 1.0. To view a copy of this license, visit http://creativecommons.org/publicdomain/zero/1.0
