@@ -68,9 +68,3 @@ New in this fork:
 Allowing sitting onto every slots of (long)sofas
 Removed deprecated calls
 Translation of German (text by Xanthin) and Traditional Chinese using the built-in engine
-
-License:
-
-The origial license is WTFPL. However, because it is not an OSI-approved FOSS license, it is changed to CC0 in this fork.
-
-Living Room Furniture by thefamilygrog66 and 1F616EMO is marked with CC0 1.0. To view a copy of this license, visit http://creativecommons.org/publicdomain/zero/1.0
