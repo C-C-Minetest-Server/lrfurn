@@ -57,6 +57,7 @@ for i in ipairs(sofas_list) do
 				{ -0.3125, 0,      -0.5,    0.5,     0.25,   -0.3125 },
 			}
 		},
+		use_texture_alpha = "opaque",
 
 		drop = "lrfurn:sofa_right_" .. colour,
 		on_construct = function(pos)
@@ -108,6 +109,7 @@ for i in ipairs(sofas_list) do
 				{ -0.3125, 0,      0.3125, 0.5,     0.25,   0.5 },
 			}
 		},
+		use_texture_alpha = "opaque",
 
 		drop = "lrfurn:sofa_right_" .. colour,
 		on_destruct = function(pos)

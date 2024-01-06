@@ -35,6 +35,7 @@ minetest.register_node("lrfurn:coffeetable_back", {
 			{ -0.4375, -0.0625, -0.4375, 0.4375,  0,       0.5 },
 		}
 	},
+	use_texture_alpha = "opaque",
 	selection_box = {
 		type = "fixed",
 		fixed = {

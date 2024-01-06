@@ -57,6 +57,7 @@ for i in ipairs(longsofas_list) do
 				{ -0.3125, 0,      -0.5,    0.5,     0.25,   -0.3125 },
 			}
 		},
+		use_texture_alpha = "opaque",
 
 		on_construct = function(pos)
 			local node = minetest.get_node(pos)
@@ -125,6 +126,8 @@ for i in ipairs(longsofas_list) do
 				{ -0.5,    0,      -0.5,     -0.3125, 0.5,    0.5 },
 			}
 		},
+		use_texture_alpha = "opaque",
+
 		drop = "lrfurn:longsofa_right_" .. colour,
 		on_destruct = function(pos)
 			local node = minetest.get_node(pos)
@@ -172,6 +175,8 @@ for i in ipairs(longsofas_list) do
 				{ -0.3125, 0,      0.3125, 0.5,     0.25,   0.5 },
 			}
 		},
+		use_texture_alpha = "opaque",
+
 		drop = "lrfurn:longsofa_right_" .. colour,
 		on_destruct = function(pos)
 			local node = minetest.get_node(pos)

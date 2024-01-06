@@ -53,6 +53,7 @@ for i in ipairs(armchairs_list) do
 				{ 0.3125,  0,      -0.5,    0.5,     0.25,   0.3125 },
 			}
 		},
+		use_texture_alpha = "opaque",
 
 		on_rightclick = lrfurn.sofa_click,
 	})
