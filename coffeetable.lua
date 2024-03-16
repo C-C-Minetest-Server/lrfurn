@@ -105,24 +105,6 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_craft({
-	output = "lrfurn:coffeetable_back",
-	recipe = {
-		{ "",                     "",                     "", },
-		{ "moreblocks:slab_wood", "moreblocks:slab_wood", "moreblocks:slab_wood", },
-		{ "default:stick",        "",                     "default:stick", }
-	}
-})
-
-minetest.register_craft({
-	output = "lrfurn:coffeetable_back",
-	recipe = {
-		{ "",                "",                "", },
-		{ "group:wood_slab", "group:wood_slab", "group:wood_slab", },
-		{ "default:stick",   "",                "default:stick", }
-	}
-})
-
 if minetest.settings:get("log_mods") then
 	minetest.log("action", "coffeetable loaded")
 end
