@@ -63,6 +63,8 @@ minetest.register_node("lrfurn:coffeetable_back", {
 			minetest.swap_node(pos2, { name = "air" })
 		end
 	end,
+
+	on_rotate = minetest.global_exists("screwdriver") and screwdriver.disallow,
 })
 
 minetest.register_node("lrfurn:coffeetable_front", {
@@ -92,6 +94,8 @@ minetest.register_node("lrfurn:coffeetable_front", {
 	},
 	pointable = false,
 	diggable = false,
+
+	on_rotate = minetest.global_exists("screwdriver") and screwdriver.disallow,
 })
 
 minetest.register_alias("lrfurn:coffeetable", "lrfurn:coffeetable_back")

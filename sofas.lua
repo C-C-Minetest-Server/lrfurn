@@ -83,6 +83,8 @@ for i in ipairs(sofas_list) do
 			end
 		end,
 		on_rightclick = lrfurn.sofa_click,
+
+		on_rotate = minetest.global_exists("screwdriver") and screwdriver.disallow,
 	})
 
 	minetest.register_node("lrfurn:sofa_left_" .. colour, {
@@ -125,6 +127,8 @@ for i in ipairs(sofas_list) do
 			end
 		end,
 		on_rightclick = lrfurn.sofa_click,
+
+		on_rotate = minetest.global_exists("screwdriver") and screwdriver.disallow,
 	})
 
 	minetest.register_alias("lrfurn:sofa_" .. colour, "lrfurn:sofa_right_" .. colour)

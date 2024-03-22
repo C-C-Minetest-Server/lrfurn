@@ -96,6 +96,8 @@ for i in ipairs(longsofas_list) do
 			end
 		end,
 		on_rightclick = lrfurn.sofa_click,
+
+		on_rotate = minetest.global_exists("screwdriver") and screwdriver.disallow,
 	})
 
 	minetest.register_node("lrfurn:longsofa_middle_" .. colour, {
@@ -142,6 +144,8 @@ for i in ipairs(longsofas_list) do
 			end
 		end,
 		on_rightclick = lrfurn.sofa_click,
+
+		on_rotate = minetest.global_exists("screwdriver") and screwdriver.disallow,
 	})
 
 	minetest.register_node("lrfurn:longsofa_left_" .. colour, {
@@ -191,6 +195,8 @@ for i in ipairs(longsofas_list) do
 			end
 		end,
 		on_rightclick = lrfurn.sofa_click,
+
+		on_rotate = minetest.global_exists("screwdriver") and screwdriver.disallow,
 	})
 
 	minetest.register_alias("lrfurn:longsofa_" .. colour, "lrfurn:longsofa_right_" .. colour)
