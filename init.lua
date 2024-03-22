@@ -11,13 +11,11 @@ local pi = math.pi
 
 lrfurn = {}
 
--- The facedir of the node is not that of the player
--- So we need our own converion table
 local param2_to_horizontal = {
-    [0] = pi * 3 / 2,
-    [1] = pi,
-    [2] = pi / 2,
-    [3] = 0
+    [0] = 0,
+    [1] = pi * 3 / 2,
+    [2] = pi,
+    [3] = pi / 2
 }
 
 -- TODO: player_api sit
@@ -28,7 +26,10 @@ function lrfurn.sofa_click(pos, node, clicker)
     pos.y = pos.y - 0.5
     clicker:set_pos(pos)
 
-    clicker:set_look_horizontal(param2_to_horizontal[node.param2 % 4])
+    if string.find(node.name, "lrfurn:armchair_") then
+        node.param2 = node.param2 + 1
+    end
+    clicker:set_look_horizontal(param2_to_horizontal[(node.param2 + 1) % 4])
     clicker:set_look_vertical(pi * 10 / 180)
 end
 
