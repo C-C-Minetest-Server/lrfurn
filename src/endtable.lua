@@ -1,4 +1,4 @@
--- lrfurn/endtable.lua
+-- lrfurn/src/endtable.lua
 -- End Table
 --[[
     Living Room Furniture by thefamilygrog66 and 1F616EMO

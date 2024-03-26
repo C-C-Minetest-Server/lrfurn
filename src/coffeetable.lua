@@ -1,4 +1,4 @@
--- lrfurn/coffeetable.lua
+-- lrfurn/src/coffeetable.lua
 -- Coffee Table
 --[[
     Living Room Furniture by thefamilygrog66 and 1F616EMO

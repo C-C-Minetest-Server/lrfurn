@@ -33,8 +33,8 @@ function lrfurn.sofa_click(pos, node, clicker)
     clicker:set_look_vertical(pi * 10 / 180)
 end
 
-dofile(minetest.get_modpath("lrfurn") .. "/longsofas.lua")
-dofile(minetest.get_modpath("lrfurn") .. "/sofas.lua")
-dofile(minetest.get_modpath("lrfurn") .. "/armchairs.lua")
-dofile(minetest.get_modpath("lrfurn") .. "/coffeetable.lua")
-dofile(minetest.get_modpath("lrfurn") .. "/endtable.lua")
+dofile(minetest.get_modpath("lrfurn") .. "/src/longsofas.lua")
+dofile(minetest.get_modpath("lrfurn") .. "/src/sofas.lua")
+dofile(minetest.get_modpath("lrfurn") .. "/src/armchairs.lua")
+dofile(minetest.get_modpath("lrfurn") .. "/src/coffeetable.lua")
+dofile(minetest.get_modpath("lrfurn") .. "/src/endtable.lua")

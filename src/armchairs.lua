@@ -1,4 +1,4 @@
--- lrfurn/armchairs.lua
+-- lrfurn/src/armchairs.lua
 -- Armchairs
 --[[
     Living Room Furniture by thefamilygrog66 and 1F616EMO

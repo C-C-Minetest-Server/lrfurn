@@ -1,4 +1,4 @@
--- lrfurn/longsofas.lua
+-- lrfurn/src/longsofas.lua
 -- Long Sofas
 --[[
     Living Room Furniture by thefamilygrog66 and 1F616EMO

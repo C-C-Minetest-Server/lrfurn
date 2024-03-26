@@ -1,6 +1,7 @@
 # textdomain: lrfurn
-
 ### armchairs.lua ###
+
+##[ src/armchairs.lua ]##
 Red Armchair=紅色扶手椅
 Orange Armchair=橙色扶手椅
 Yellow Armchair=黃色扶手椅
@@ -11,13 +12,13 @@ Black Armchair=黑色扶手椅
 Grey Armchair=灰色扶手椅
 White Armchair=白色扶手椅
 
-### coffeetable.lua ###
+##[ src/coffeetable.lua ]##
 Coffee Table=咖啡桌
 
-### endtabel.lua ###
+##[ src/endtable.lua ]##
 End Table=茶几
 
-### longsofas.lua ###
+##[ src/longsofas.lua ]##
 Red Long Sofa=紅色長沙發
 Orange Long Sofa=橙色長沙發
 Yellow Long Sofa=黃色長沙發
@@ -28,7 +29,7 @@ Black Long Sofa=黑色長沙發
 Grey Long Sofa=灰色長沙發
 White Long Sofa=白色長沙發
 
-### sofas.lua ###
+##[ src/sofas.lua ]##
 Red Sofa=紅色沙發
 Orange Sofa=橙色沙發
 Yellow Sofa=黃色沙發

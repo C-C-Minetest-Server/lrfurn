@@ -1,4 +1,4 @@
--- lrfurn/sofas.lua
+-- lrfurn/src/sofas.lua
 -- Sofas
 --[[
     Living Room Furniture by thefamilygrog66 and 1F616EMO
