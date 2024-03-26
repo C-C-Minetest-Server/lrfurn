@@ -1,0 +1,40 @@
+# textdomain: lrfurn
+
+##[ src/armchairs.lua ]##
+Red Armchair=红色扶手椅
+Orange Armchair=橙色扶手椅
+Yellow Armchair=黄色扶手椅
+Green Armchair=绿色扶手椅
+Blue Armchair=蓝色扶手椅
+Violet Armchair=紫色扶手椅
+Black Armchair=黑色扶手椅
+Grey Armchair=灰色扶手椅
+White Armchair=白色扶手椅
+
+##[ src/coffeetable.lua ]##
+Coffee Table=咖啡桌
+
+##[ src/endtable.lua ]##
+End Table=茶几
+
+##[ src/longsofas.lua ]##
+Red Long Sofa=红色长沙发
+Orange Long Sofa=橙色长沙发
+Yellow Long Sofa=黄色长沙发
+Green Long Sofa=绿色长沙发
+Blue Long Sofa=蓝色长沙发
+Violet Long Sofa=紫色长沙发
+Black Long Sofa=黑色长沙发
+Grey Long Sofa=灰色长沙发
+White Long Sofa=白色长沙发
+
+##[ src/sofas.lua ]##
+Red Sofa=红色沙发
+Orange Sofa=橙色沙发
+Yellow Sofa=黄色沙发
+Green Sofa=绿色沙发
+Blue Sofa=蓝色沙发
+Violet Sofa=紫色沙发
+Black Sofa=黑色沙发
+Grey Sofa=灰色沙发
+White Sofa=白色沙发
