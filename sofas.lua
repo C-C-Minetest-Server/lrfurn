@@ -142,7 +142,3 @@ for i in ipairs(sofas_list) do
 		}
 	})
 end
-
-if minetest.settings:get("log_mods") then
-	minetest.log("action", "sofas loaded")
-end
