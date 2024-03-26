@@ -42,8 +42,7 @@ minetest.register_node("lrfurn:endtable", {
 minetest.register_craft({
 	output = "lrfurn:endtable",
 	recipe = {
-		{ "",                 "",                 "", },
-		{ "stairs:slab_wood", "stairs:slab_wood", "", },
-		{ "default:stick",    "default:stick",    "", }
+		{ "stairs:slab_wood", "stairs:slab_wood", },
+		{ "default:stick",    "default:stick", }
 	}
 })

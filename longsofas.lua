@@ -38,7 +38,7 @@ for i in ipairs(longsofas_list) do
 		paramtype = "light",
 		paramtype2 = "facedir",
 		stack_max = 1,
-		groups = { snappy = 1, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3 },
+		groups = { snappy = 1, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3, lrfurn_longsofa = 1 },
 		sounds = default.node_sound_wood_defaults(),
 		node_box = {
 			type = "fixed",
@@ -207,6 +207,15 @@ for i in ipairs(longsofas_list) do
 			{ "wool:" .. colour,  "wool:" .. colour,  "wool:" .. colour, },
 			{ "stairs:slab_wood", "stairs:slab_wood", "stairs:slab_wood", },
 			{ "default:stick",    "default:stick",    "default:stick", }
+		}
+	})
+
+	minetest.register_craft({
+		type = "shapeless",
+		output = "lrfurn:longsofa_" .. colour,
+		recipe = {
+			"group:lrfurn_longsofa",
+			"dye:" .. colour,
 		}
 	})
 end

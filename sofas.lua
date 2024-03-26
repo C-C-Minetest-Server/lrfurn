@@ -92,7 +92,7 @@ for i in ipairs(sofas_list) do
 		tiles = { "lrfurn_sofa_left_top_" .. colour .. ".png", "lrfurn_coffeetable_back.png", "lrfurn_sofa_left_front_" .. colour .. ".png", "lrfurn_sofa_back_" .. colour .. ".png", "lrfurn_sofa_left_side_" .. colour .. ".png", "lrfurn_sofa_right_side_" .. colour .. ".png" },
 		paramtype = "light",
 		paramtype2 = "facedir",
-		groups = { snappy = 1, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3 },
+		groups = { snappy = 1, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3, lrfurn_sofa = 1 },
 		sounds = default.node_sound_wood_defaults(),
 		node_box = {
 			type = "fixed",
@@ -136,9 +136,18 @@ for i in ipairs(sofas_list) do
 	minetest.register_craft({
 		output = "lrfurn:sofa_" .. colour,
 		recipe = {
-			{ "wool:" .. colour,  "wool:" .. colour,  "", },
-			{ "stairs:slab_wood", "stairs:slab_wood", "", },
-			{ "default:stick",    "default:stick",    "", }
+			{ "wool:" .. colour,  "wool:" .. colour, },
+			{ "stairs:slab_wood", "stairs:slab_wood", },
+			{ "default:stick",    "default:stick", }
+		}
+	})
+
+	minetest.register_craft({
+		type = "shapeless",
+		output = "lrfurn:sofa_" .. colour,
+		recipe = {
+			"group:lrfurn_sofa",
+			"dye:" .. colour,
 		}
 	})
 end

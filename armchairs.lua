@@ -31,7 +31,7 @@ for i in ipairs(armchairs_list) do
 		paramtype = "light",
 		paramtype2 = "facedir",
 		stack_max = 1,
-		groups = { snappy = 1, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3 },
+		groups = { snappy = 1, choppy = 2, oddly_breakable_by_hand = 2, flammable = 3, lrfurn_armchair = 1 },
 		sounds = default.node_sound_wood_defaults(),
 		node_box = {
 			type = "fixed",
@@ -61,9 +61,18 @@ for i in ipairs(armchairs_list) do
 	minetest.register_craft({
 		output = "lrfurn:armchair_" .. colour,
 		recipe = {
-			{ "wool:" .. colour,  "", "", },
-			{ "stairs:slab_wood", "", "", },
-			{ "default:stick",    "", "", }
+			{ "wool:" .. colour, },
+			{ "stairs:slab_wood", },
+			{ "default:stick", }
+		}
+	})
+
+	minetest.register_craft({
+		type = "shapeless",
+		output = "lrfurn:armchair_" .. colour,
+		recipe = {
+			"group:lrfurn_armchair",
+			"dye:" .. colour,
 		}
 	})
 end

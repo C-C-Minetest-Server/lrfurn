@@ -103,7 +103,6 @@ minetest.register_alias("lrfurn:coffeetable", "lrfurn:coffeetable_back")
 minetest.register_craft({
 	output = "lrfurn:coffeetable_back",
 	recipe = {
-		{ "",                 "",                 "", },
 		{ "stairs:slab_wood", "stairs:slab_wood", "stairs:slab_wood", },
 		{ "default:stick",    "",                 "default:stick", }
 	}
